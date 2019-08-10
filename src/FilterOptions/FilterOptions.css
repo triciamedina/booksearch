@@ -1,0 +1,13 @@
+.FilterOptions__option {
+    font-size: 13px;
+    display: flex;
+    flex-direction: row;
+}
+
+.FilterOptions__option div:last-child {
+    margin-left: 15px;
+}
+
+.FilterOptions__option label {
+    padding-right: 5px;
+}

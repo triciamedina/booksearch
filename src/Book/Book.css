@@ -1,0 +1,30 @@
+.book {
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+}
+
+.book__image {
+    width: 100px;
+    height: auto;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.book__title {
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.book__link {
+    font-size: 13px;
+}
+
+.book__authors, .book__price, .book__snippet {
+    font-size: 13px;
+}
+
+.book__authors span:nth-child(2)::before {
+    content: ", "
+}

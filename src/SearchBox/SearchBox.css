@@ -1,0 +1,11 @@
+.SearchBox {
+    padding: 0px 0px 15px 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.SearchBox__error {
+    font-size: 13px;
+    color: darkred;
+}
